@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fefae0;
+    color: #283618;
+}
+
+/* Шапка */
+header {
+    background-color: #606c38;
+    color: #fefae0;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* Навигация */
+nav {
+    background-color: #283618;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fefae0;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #dda15e;
+}
+
+/* Секции */
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #bc6c25;
+}
+
+/* Список услуг */
+.services li {
+    margin: 10px 0;
+}
+
+/* Кнопка */
+.btn {
+    display: inline-block;
+    background-color: #bc6c25;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background-color: #dda15e;
+}
+
+
+footer {
+    background-color: #283618;
+    color: #fefae0;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
